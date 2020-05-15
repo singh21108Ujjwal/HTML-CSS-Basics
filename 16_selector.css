@@ -1,0 +1,18 @@
+*{
+    border: 1px black solid;
+}
+li a{
+    color: red;
+}
+
+h3 + ul{
+    border: 2px red solid;
+}
+
+a[href="https://www.google.com/"]{
+    background: blue;
+}
+
+:nth-of-type(3){
+    background: blueviolet;
+}

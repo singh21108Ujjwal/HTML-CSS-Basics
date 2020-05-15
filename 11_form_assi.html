@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Form validation</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form action="Register" method="GET">
+            <label>
+                First Name:
+                <input type="text" required>
+                Last Name:
+                <input type="text" required>
+            </label>
+            <div>
+                <label>
+                    Male:
+                    <input name="pet" type="radio">
+                    Female:
+                    <input name="pet" type="radio">
+                    others:
+                    <input name="pet" type="radio">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Email:
+                    <input type="email" required>
+                    password:
+                    <input type="password" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Birthday:
+                    <select Month>
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                    </select>
+                    <select Day>
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>3</option>
+                    </select>
+                    <select year>
+                        <option>year</option>
+                        <option>2000</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    I agree to the terms and condition
+                    <input type="checkbox" required>
+                </label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+h3{
+    /*content-width and height*/
+    width: 50%;
+    /*border*/
+    border: 2px solid blue;
+    /*padding*/
+    padding: 40px;
+    /*margin*/
+    margin: 50px;
+    /*margin:20px 40px 500px 100px*/ 
+    
+}

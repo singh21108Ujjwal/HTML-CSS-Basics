@@ -1,0 +1,14 @@
+h1{
+    background: #FFFF00;
+    border-color: wheat;
+    border-width: 5px;
+    border-style: solid; 
+
+}
+h3{
+    background: #FF00FF;
+    border: solid 5px rebeccapurple;
+}
+body{
+    color: palevioletred;
+}

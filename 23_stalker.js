@@ -1,0 +1,5 @@
+var Fname=prompt("Enter your first name?")
+var Lname=prompt("Enter your last name?")
+var age=prompt("What is your age?")
+alert(Fname +" " +Lname)
+alert("Age is "+age)
